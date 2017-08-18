@@ -1,0 +1,11 @@
+Instructions:
+
+1 file DERF.m has the main function.
+
+2 function compute_DERF produces the feature vector for the input image patch extracted from interest point.
+
+3 function init_DERF serves as computing the DoG convolution gradient orientation maps.
+
+4 function get_descriptors assembles the feature vector from DoG convolution gradient orientation maps.
+
+Note: The major part of this code is implemented by Dawei Weng, and some basic functions are directly borrowed from the Daisy descriptor.  
